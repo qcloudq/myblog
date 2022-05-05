@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Qcloud's Blog</title><link>http://qcloudq.github.io/myblog/posts/</link><description>Recent content in Posts on Qcloud's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 May 2022 07:08:23 +0800</lastBuildDate><atom:link href="http://qcloudq.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>BUAA_OS_Lab2实验报告</title><link>http://qcloudq.github.io/myblog/posts/buaa_os_lab2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</link><pubDate>Thu, 05 May 2022 07:08:23 +0800</pubDate><guid>http://qcloudq.github.io/myblog/posts/buaa_os_lab2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid><description>Lab2 实验报告 01 实验思考题 Thinking 2.1 请你根据上述说明，回答问题：
+在我们编写的程序中，指针变量中存储的地址是虚拟地址还是物理地址？
+答：虚拟地址。
+MIPS 汇编程序中lw, sw使用的是虚拟地址还是物理地址？
+答：虚拟地址。
+Thinking 2.2 请从可重用性的角度，阐述用宏来实现链表的好处。
+答：由于C语言并不支持泛型，所以我们通过宏来实现链表，使其具有”泛型“的特点。这样所有的链表都可以使用一套宏，实现了代码的复用，提高了可重用性。
+请你查看实验环境中的 /usr/include/sys/queue.h，了解其中单向链表与循环链表的实现，比较它们与本实验中使用的双向链表，分析三者在插入与删除操作上的性能差异。
+答：在 queue.h 中可以看到：
+/* 双向链表 * A list is headed by a single forward pointer(or an array of forward * pointers for a hash table header). The elements are doubly linked * so that an arbitrary element can be removed without a need to * traverse the list.</description></item><item><title>My First Post</title><link>http://qcloudq.github.io/myblog/posts/my-first-post/</link><pubDate>Wed, 04 May 2022 13:25:38 +0800</pubDate><guid>http://qcloudq.github.io/myblog/posts/my-first-post/</guid><description>我的第一篇博客</description></item></channel></rss>
